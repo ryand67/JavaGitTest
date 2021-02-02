@@ -8,6 +8,7 @@ public class Main {
         System.out.print("Type something: ");
         String response = scanner.next();
         System.out.println(call(response));
+        System.out.println("This is my git test.");
     }
 
     public static String call(String res) {
